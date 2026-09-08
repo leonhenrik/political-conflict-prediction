@@ -1,0 +1,85 @@
+C:\Users\PCUser\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\optimize\_differentialevolution.py:487: UserWarning: differential_evolution: the 'workers' keyword has overridden updating='immediate' to updating='deferred'
+  with DifferentialEvolutionSolver(func, bounds, args=args,
+======================================================================
+Calibrating voting_model.py — fast numpy simulator
+  Agents: 300  Days: 150  Replicates: 3
+  Parameters: 27
+======================================================================
+Targets:
+  2017: CDU=0.329 SPD=0.205 Gruene=0.089 FDP=0.107 AfD=0.126 BSW=0.000 turnout=0.764
+  2021: CDU=0.241 SPD=0.257 Gruene=0.148 FDP=0.115 AfD=0.103 BSW=0.000 turnout=0.769
+  2025: CDU=0.285 SPD=0.164 Gruene=0.116 FDP=0.043 AfD=0.208 BSW=0.050 turnout=0.827
+
+Benchmark: 0.43s per loss eval (serial)
+DE population=216, 16 workers, 150 iters -> ~14 min
+
+  [gen    1     60s]  new best=0.36554
+    Parties:  CDU=(+0.41,+0.62)  SPD=(-0.45,-0.13)  Gruene=(-0.22,-0.53)  FDP=(+0.54,-0.61)  AfD=(-0.03,+0.88)  BSW=(-0.09,+0.28)
+    Pop: econ~N(-0.23,0.36) social~N(-0.14,0.31) urban=0.49
+    Rates: assim=0.0100 rep=0.0317 media=0.0558 socmedia=0.0244 rel=0.01880 zealot=0.114
+    Turnout: base=0.912 alien=0.480 soph=0.229 trust=0.144
+  [gen    2     89s]  new best=0.26961
+    Parties:  CDU=(+0.35,+0.56)  SPD=(-0.53,-0.29)  Gruene=(-0.38,-0.49)  FDP=(+0.45,-0.50)  AfD=(-0.01,+0.49)  BSW=(-0.32,+0.47)
+    Pop: econ~N(-0.16,0.36) social~N(+0.19,0.24) urban=0.40
+    Rates: assim=0.0326 rep=0.0158 media=0.0140 socmedia=0.0245 rel=0.01510 zealot=0.133
+    Turnout: base=0.860 alien=0.482 soph=0.130 trust=0.151
+  [gen    4    148s]  new best=0.24933
+    Parties:  CDU=(+0.58,+0.37)  SPD=(-0.50,-0.22)  Gruene=(-0.21,-0.11)  FDP=(+0.35,-0.16)  AfD=(+0.01,+0.80)  BSW=(-0.53,+0.29)
+    Pop: econ~N(-0.04,0.25) social~N(+0.30,0.25) urban=0.57
+    Rates: assim=0.0328 rep=0.0278 media=0.0598 socmedia=0.0451 rel=0.01438 zealot=0.083
+    Turnout: base=0.836 alien=0.326 soph=0.140 trust=0.076
+  [gen    8    262s]  new best=0.20392
+    Parties:  CDU=(+0.59,+0.54)  SPD=(-0.46,-0.27)  Gruene=(-0.22,-0.39)  FDP=(+0.35,-0.00)  AfD=(-0.20,+0.58)  BSW=(-0.38,+0.28)
+    Pop: econ~N(-0.28,0.24) social~N(+0.21,0.24) urban=0.55
+    Rates: assim=0.0568 rep=0.0700 media=0.0328 socmedia=0.0095 rel=0.01121 zealot=0.087
+    Turnout: base=0.834 alien=0.224 soph=0.278 trust=0.049
+  [gen   10    318s]  best=0.20392
+  [gen   12    377s]  new best=0.18382
+    Parties:  CDU=(+0.28,+0.45)  SPD=(-0.30,-0.21)  Gruene=(-0.22,-0.22)  FDP=(+0.41,-0.20)  AfD=(-0.06,+0.69)  BSW=(-0.40,+0.60)
+    Pop: econ~N(+0.10,0.36) social~N(+0.14,0.31) urban=0.48
+    Rates: assim=0.0369 rep=0.0155 media=0.0442 socmedia=0.0219 rel=0.01367 zealot=0.048
+    Turnout: base=0.815 alien=0.261 soph=0.221 trust=0.115
+  [gen   18    546s]  new best=0.17648
+    Parties:  CDU=(+0.26,+0.51)  SPD=(-0.49,-0.28)  Gruene=(-0.34,-0.12)  FDP=(+0.31,-0.59)  AfD=(-0.18,+0.70)  BSW=(-0.30,+0.26)
+    Pop: econ~N(+0.05,0.43) social~N(+0.16,0.42) urban=0.62
+    Rates: assim=0.0724 rep=0.0171 media=0.0424 socmedia=0.0220 rel=0.01652 zealot=0.074
+    Turnout: base=0.810 alien=0.286 soph=0.186 trust=0.134
+  [gen   20    604s]  best=0.17648
+  [gen   30    899s]  new best=0.17647
+    Parties:  CDU=(+0.51,+0.67)  SPD=(-0.42,-0.25)  Gruene=(-0.40,-0.21)  FDP=(+0.32,-0.29)  AfD=(+0.30,+0.79)  BSW=(-0.08,+0.19)
+    Pop: econ~N(+0.09,0.48) social~N(+0.19,0.48) urban=0.41
+    Rates: assim=0.0648 rep=0.0164 media=0.0469 socmedia=0.0393 rel=0.01871 zealot=0.038
+    Turnout: base=0.822 alien=0.200 soph=0.181 trust=0.030
+  [gen   33    987s]  new best=0.14143
+    Parties:  CDU=(+0.27,+0.68)  SPD=(-0.42,-0.21)  Gruene=(-0.35,-0.15)  FDP=(+0.38,-0.09)  AfD=(+0.09,+0.70)  BSW=(-0.55,+0.44)
+    Pop: econ~N(+0.06,0.41) social~N(+0.14,0.17) urban=0.40
+    Rates: assim=0.0485 rep=0.0179 media=0.0328 socmedia=0.0333 rel=0.01472 zealot=0.108
+    Turnout: base=0.843 alien=0.225 soph=0.170 trust=0.027
+  [gen   35   1042s]  new best=0.12464
+    Parties:  CDU=(+0.23,+0.67)  SPD=(-0.47,-0.16)  Gruene=(-0.28,-0.38)  FDP=(+0.46,-0.23)  AfD=(-0.19,+0.97)  BSW=(-0.42,+0.60)
+    Pop: econ~N(-0.24,0.41) social~N(+0.25,0.18) urban=0.39
+    Rates: assim=0.0752 rep=0.0149 media=0.0254 socmedia=0.0214 rel=0.01631 zealot=0.086
+    Turnout: base=0.782 alien=0.284 soph=0.237 trust=0.084
+  [gen   40   1186s]  best=0.12464
+  [gen   50   1471s]  best=0.12464
+  [gen   60   1762s]  best=0.12464
+  [gen   70   2045s]  best=0.12464
+  [gen   80   2382s]  best=0.12464
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=8124, pipe_handle=1080)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PCUser\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+        _winapi.SYNCHRONIZE | _winapi.PROCESS_DUP_HANDLE,
+        False, parent_pid)
+OSError: [WinError 87] The parameter is incorrect
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=8124, pipe_handle=976)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PCUser\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+        _winapi.SYNCHRONIZE | _winapi.PROCESS_DUP_HANDLE,
+        False, parent_pid)
+OSError: [WinError 87] The parameter is incorrect
